@@ -27,3 +27,4 @@ vim.opt.shell='cmd.exe'
 vim.opt.shellcmdflag="/c powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned"
 vim.opt.shellpipe='|'
 vim.opt.shellredir='>'
+
