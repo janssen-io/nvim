@@ -71,6 +71,7 @@ return require('packer').startup(function(use)
                   ['<Down>'] = { 'select_next', 'fallback' },
                   ['<C-k>'] = { 'select_prev', 'fallback' },
                   ['<C-j>'] = { 'select_next', 'fallback' },
+                  ['<Tab>'] = { 'select_and_accept', 'fallback' },
               },
               sources = {
                   default = { 'lsp', 'path', 'snippets', 'buffer' },
